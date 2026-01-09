@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared style */
+.logo h1{
+    font-size: 34px;
+    font-weight: 700;
+    color: #333;
+    font-weight: 800;
+}
+
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* main style */
+
+header{
+    background-color: antiquewhite;
+    padding-top: 50px;
+
+}
+
+nav{
+    width: 80%;
+    max-width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav .Menu{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    align-items: center;
+}
+
+nav .Menu li a{
+    text-decoration: none;
+    color: #474747;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.btn{
+    padding: 18px 35px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.btn:hover{
+    background-color: darkred;
+    animation-duration: 1s;
+}
