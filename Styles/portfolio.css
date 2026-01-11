@@ -28,7 +28,7 @@ header{
 nav{
     width: 80%;
     max-width: 1140px;
-    margin: 0px auto;
+    margin: 0px 0px 0px 230px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,4 +65,13 @@ nav .Menu li a{
 .btn:hover{
     background-color: darkred;
     animation-duration: 1s;
+}
+
+#banner {
+    margin: 47px 38px 0px 230px;
+    display: flex;
+}
+
+.banner-content{
+    
 }
