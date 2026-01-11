@@ -21,6 +21,9 @@
 
 header{
     background-color: antiquewhite;
+    background: url("../Assets/Images/developer.png"), url("../Assets/images/header_bg.png");
+    background-position: left top, right bottom;
+    background-repeat: no-repeat, no-repeat;
     padding-top: 50px;
 
 }
@@ -28,7 +31,7 @@ header{
 nav{
     width: 80%;
     max-width: 1140px;
-    margin: 0px 0px 0px 230px;
+    margin: 0px 0px 0px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,10 +71,272 @@ nav .Menu li a{
 }
 
 #banner {
-    margin: 47px 38px 0px 230px;
+    margin: 47px 38px 0px 150px;
+    padding: auto;
     display: flex;
 }
 
-.banner-content{
+#banner .banner-content h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #333;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+#banner .banner-content p{
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+#banner .banner-content h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#banner .banner-content .btn {
+    cursor: pointer;
+}
+
+#banner .banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
+
+}
+
+#banner .banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* End of header designiing */
+
+/* about us section design */
+
+#about{
+    margin: 0px auto;
+    padding: 100px 150px;
+}
+
+#about .about-content {
+    background-color: antiquewhite;
+    padding: 130px 156px;
+}
+
+#about .about-me {
+    max-width: 100%;
+    margin-right: 50px;
+    text-align: center;
+    row-gap: 30px;
+
+}
+
+#about .about-me h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#about .about-me p{
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+#about .about-info-cards {
+    display: flex;
+    margin-top: 40px;
+    gap: 80px;
+    justify-content: center;
+    text-align: center;
+}
+
+#about .about-info-cards .info-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+
+}
+
+#about .about-info-cards .info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+/* What I Do ? */
+
+#whatido{
+    margin: 0px auto;
+    padding: 100px 150px;
+}
+
+#whatido .section-header h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#whatido .section-header p{
+    font-size: 26px;
+    font-weight: 400;
+    color: #434343;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#whatido .service-cards-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+#whatido .service-cards-container .service-card {
+    padding: 30px;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    cursor: pointer;
     
+}   
+
+#whatido .service-cards-container .service-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#whatido .service-cards-container .service-card p{
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+#whatido .service-cards-container .service-card:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+
+#whatido .service-cards-container .service-card:hover h3{
+    color: red;
+    transition: all 0.3s ease;
+}
+
+#whatido .service-cards-container .service-card img{
+margin-bottom: 20px;
+}
+
+/* resume section design */
+
+#resume{
+    margin: 0px auto;
+    padding: 100px 150px;
+    background-color: antiquewhite;
+}
+
+#resume .resume-header h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#resume .resume-header p{
+    font-size: 26px;
+    font-weight: 400;
+    color: #434343;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#resume .resume-container {
+    display: flex;
+    gap: 40px;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+#resume .resume-container .resume-section {
+    padding: 20px;
+}
+#resume .resume-container .resume-section .resume-field{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+#resume .resume-container .resume-section .resume-field h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#resume .resume-container .resume-section .resume-field span{
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* resume ends here */
+
+/* footer section design */
+
+#footer{
+    background-color: #e1dbdb;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-container{
+    display: flex;
+    gap: 20px;
+}
+
+#footer-container .intro-social{
+    max-width: 300px;
+    gap: 20px;
+}
+
+#footer-container .form h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+#footer-container .form input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    row-gap: 20px;
+}
+
+#footer-container .form textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    row-gap: 20px;
 }
